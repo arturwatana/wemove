@@ -1,4 +1,3 @@
-import Image from "next/image";
 import HomeItem from "./HomeItem";
 
 export default function HomeItems() {
