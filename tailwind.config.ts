@@ -11,6 +11,15 @@ const config: Config = {
       colors: {
         primaryBlue: "#57A4FF",
       },
+      keyframes: {
+        burgerOpen: {
+          "0%": { left: "100%" },
+          "100%": { left: "0%" },
+        },
+      },
+      animation: {
+        burgerOpen: "burgerOpen 0.5s ease forwards",
+      },
     },
   },
   plugins: [],
